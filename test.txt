@@ -1,0 +1,20 @@
+Emails
+timanian@mac.com:timanian@gmail.com
+Test Email
+This is a test to test out how this file will be formatted.
+Please use this to make sure the code works.
+Have a good day!
+...
+Sent::11/2/3.13:45
+Response:-1
+---
+tylerimanian@gmail.com:imanian@mac.com
+Test Email 2
+This is a test shit to do the stuff with
+Test Test Test Test
+yout!
+...
+Sent::11/10/6.15:20
+Response:0.34
+---
+===

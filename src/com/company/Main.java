@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException, WrongFormatException, EndOfEmailException {
         File file = new File("test.txt");
         Scanner filein = new Scanner(file);
+        Scanner stdin = new Scanner(System.in);
 
         Person testPerson = new Person();
         ArrayList<Email> emails = new ArrayList<>();
@@ -36,6 +37,11 @@ public class Main {
 
         //use for testing
         testPerson.printEmails();
+
+        /* future website interface?
+           gives the ability to search for people and see stats on them
+        */
+
     }
 
 

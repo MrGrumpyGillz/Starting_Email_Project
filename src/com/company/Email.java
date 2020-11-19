@@ -69,11 +69,19 @@ public class Email {
         return subject;
     }
 
-    public void setResponse(int response) {
+    public void setResponse(double response) {
         this.response = response;
     }
+    public double getResponse(){
+        return response;
+    }
 
+    public String getSubject(){
+        return subject;
+    }
 }
+
+
 
     class WrongFormatException extends Exception {}
 

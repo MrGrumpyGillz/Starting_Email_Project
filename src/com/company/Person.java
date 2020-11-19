@@ -13,8 +13,13 @@ public class Person {
 
     }
 
-    public void send(){
-        //used to send an email
+    public void responded(String emailSubject){
+        //used to set responses to an email
+        for(Email e:emails){
+            if (emailSubject.equals(e.getSubject())){
+                e.setResponse(e.getResponse() + 0.022);
+            }
+        }
     }
 
     public void addEmails(ArrayList<Email> email) {
@@ -25,6 +30,9 @@ public class Person {
         this.name = name;
     }
 
+    public ArrayList<Email> getEmails(){
+        return emails;
+    }
 
     //for testing purposes
     public void printEmails(){
